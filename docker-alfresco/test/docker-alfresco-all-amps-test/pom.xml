@@ -219,14 +219,24 @@
                                     <overWrite>false</overWrite>
                                     <outputDirectory>${project.build.directory}/amps</outputDirectory>
                                 </artifactItem>
-<!--                                <artifactItem>-->
-<!--                                    <groupId>org.alfresco</groupId>-->
-<!--                                    <artifactId>alfresco-ai-repo</artifactId>-->
-<!--                                    <version>${alfresco.ai-repo.version}</version>-->
-<!--                                    <type>amp</type>-->
-<!--                                    <overWrite>false</overWrite>-->
-<!--                                    <outputDirectory>${project.build.directory}/amps</outputDirectory>-->
-<!--                                </artifactItem>-->
+<!-- TODO ATS-486
+                                <artifactItem>
+                                    <groupId>org.alfresco</groupId>
+                                    <artifactId>alfresco-ai-repo</artifactId>
+                                    <version>${alfresco.ai-repo.version}</version>
+                                    <type>amp</type>
+                                    <overWrite>false</overWrite>
+                                    <outputDirectory>${project.build.directory}/amps</outputDirectory>
+                                </artifactItem>
+                                <artifactItem>
+                                    <groupId>org.alfresco</groupId>
+                                    <artifactId>alfresco-ai-share</artifactId>
+                                    <version>${alfresco.ai-share.version}</version>
+                                    <type>amp</type>
+                                    <overWrite>false</overWrite>
+                                    <outputDirectory>${project.build.directory}/amps_share</outputDirectory>
+                                </artifactItem>
+-->
                                 <artifactItem>
                                     <groupId>org.alfresco</groupId>
                                     <artifactId>alfresco-glacier-connector-repo</artifactId>
