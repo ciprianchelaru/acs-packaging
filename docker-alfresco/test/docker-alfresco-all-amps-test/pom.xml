@@ -299,6 +299,7 @@
                                     <overWrite>false</overWrite>
                                     <outputDirectory>${project.build.directory}/amps_share</outputDirectory>
                                 </artifactItem>
+                                <!-- TODO ATS-486 - temporarily disable to try AIS without MM. Do not merge (WIP) ;-)
                                 <artifactItem>
                                     <groupId>org.alfresco.mediamanagement</groupId>
                                     <artifactId>alfresco-mm-repo</artifactId>
@@ -315,6 +316,7 @@
                                     <overWrite>false</overWrite>
                                     <outputDirectory>${project.build.directory}/amps_share</outputDirectory>
                                 </artifactItem>
+                                -->
                                 <artifactItem>
                                     <groupId>org.alfresco</groupId>
                                     <artifactId>alfresco-document-transformation-engine-repo</artifactId>
